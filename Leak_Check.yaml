@@ -1,0 +1,29 @@
+# IP / DNS / WebRTC / IPv6 leak detection
+payload:
+  # BrowserScan
+  - 'DOMAIN-SUFFIX,browserscan.net'
+  # BrowserLeaks
+  - 'DOMAIN-SUFFIX,browserleaks.com'
+  - 'DOMAIN-SUFFIX,browserleaks.org'
+  - 'DOMAIN-SUFFIX,browserleaks.net'
+  # IPLeak
+  - 'DOMAIN-SUFFIX,ipleak.net'
+  # DNS Leak Test
+  - 'DOMAIN-SUFFIX,dnsleaktest.com'
+  - 'DOMAIN-SUFFIX,dnsleaktest.org'
+  - 'DOMAIN-SUFFIX,dnscheck.tools'
+  # IPv6 Leak Test
+  - 'DOMAIN-SUFFIX,test-ipv6.com'
+  # IP / DNS / WebRTC Check
+  - 'DOMAIN-SUFFIX,whoer.net'
+  - 'DOMAIN-SUFFIX,whoer.com'
+  - 'DOMAIN-SUFFIX,ipcheck.im'
+  - 'DOMAIN-SUFFIX,surfsharkdns.com'
+  # IP Address Check API
+  - 'DOMAIN-SUFFIX,ipify.org'
+  - 'DOMAIN-SUFFIX,ipinfo.io'
+  - 'DOMAIN-SUFFIX,ip-api.com'
+  - 'DOMAIN-SUFFIX,ip.sb'
+  - 'DOMAIN-SUFFIX,ifconfig.me'
+  - 'DOMAIN-SUFFIX,jsonp-ip.com'
+  - 'DOMAIN-SUFFIX,whatismyip.com'
